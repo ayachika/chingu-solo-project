@@ -4,16 +4,18 @@
   <head>
     <meta charset="utf-8">
     <title>Book Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
   </head>
   <body>
     <div class="container" id="app">
       <h3 class="text-center">Book Finder</h3>
-      <div class="columns medium-3" v-for="result in results">
+      <div class="card blue-grey darken-1" v-for="result in results">
           <div class="card">
-            <div class="card-divider">
+            <div class="card-title">
               {{ result.title }}
             </div>
-            <div class="card-section">
+            <div class="card-content">
               <p>{{ result.abstract }}</p>
             </div>
           </div>
