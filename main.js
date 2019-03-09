@@ -8,10 +8,11 @@ function buildUrl(url){
 const vm = new Vue({
   el: '#app',
   data: {
-    results: []
+    results: [],
+    keyword:'',
   },
   mounted(){
-    this.getItems('home')
+    this.getItems(this.keyword);
   },
   methods:{
     getItems(keyword){
