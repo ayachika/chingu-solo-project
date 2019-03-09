@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import axios from 'axios'; //呼び出し方あっているか？
-const GoogleBooksApi = "'https://www.googleapis.com/books/v1/volumes?q=search";
+const GoogleBooksApi = "https://www.googleapis.com/books/v1/volumes?q=search";
 
 
 function buildUrl(url){
