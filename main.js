@@ -1,6 +1,6 @@
-
+import axios from 'axios'; //呼び出し方あっているか？
 const GoogleBooksApi = "'https://www.googleapis.com/books/v1/volumes?q=search";
-const axios = require('axios');
+
 
 function buildUrl(url){
   return GoogleBooksApi + url
