@@ -39,9 +39,16 @@ var app = new Vue({
         var vm = this;
     var params = {query: this.keyword };
     let url = buildUrl(params); //なぜletを使うのか？
-      axios.get(url).then((response) => {
-        this.items = response.data.results;
-      }).catch(error => {console.log(error);});
+      axios.get(url).then(function(response){
+            console.log(response);
+            vm.items = response.data;
+          })
+          .catch(function(error){
+            vm.message = 'Error!' + error;
+          })
+          .finally(function(){
+            vm.message = '';
+          })
     }
   },
 });
