@@ -1,6 +1,5 @@
 
 const GoogleBooksApi = "'https://www.googleapis.com/books/v1/volumes?q=search";
-const axios = require('axios'); //npm install axios --saveでインストール後、記述
 
 function buildUrl(url){
   return GoogleBooksApi + url
