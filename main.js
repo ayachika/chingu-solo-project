@@ -22,6 +22,10 @@ const vm = new Vue({
       }).catch(error => {console.log(error);});
       
     }
-    
+  },
+  computed:{ //computedってなんだ？
+    processedItems(){
+      let items = this.results;
+    }
   }
 });
