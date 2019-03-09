@@ -10,13 +10,16 @@
   <body>
     <div class="container" id="app">
       <h3 class="text-center">Book Finder</h3>
-      <div class="card blue-grey darken-1" v-for="result in results">
+      <p>
+        検索キーワード：<input type="text" v-model="keyword">
+      </p>
+      <div class="card blue-grey darken-1" v-for="item in items">
           <div class="card">
             <div class="card-title">
-              {{ result.title }}
+              {{ item.title }}
             </div>
             <div class="card-content">
-              <p>{{ result.abstract }}</p>
+              <p>{{ item.abstract }}</p>
             </div>
           </div>
      </div>
@@ -26,6 +29,7 @@
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
   
 </html>
