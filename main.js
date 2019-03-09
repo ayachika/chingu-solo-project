@@ -1,6 +1,6 @@
 
 const GoogleBooksApi = "https://www.googleapis.com/books/v1/volumes?q=search";
-window._ = require('lodash');
+import _ from 'lodash'
 
 function buildUrl(url){
   return GoogleBooksApi + url
