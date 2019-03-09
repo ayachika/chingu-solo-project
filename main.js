@@ -24,4 +24,4 @@ const vm = new Vue({
     }
     
   }
-})
+});
