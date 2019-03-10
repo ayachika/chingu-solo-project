@@ -4,10 +4,6 @@
   <head>
     <meta charset="utf-8">
     <title>Book Finder</title>
-    <style>
-      [v-cloak] { display: none; }
-    </style>
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   
     
@@ -16,11 +12,9 @@
     <div class="container" id="app">
       <h3 class="text-center">Book Finder</h3>
       <p> <!--v-modelでフォームとバインディング-->
-        検索キーワード：<input type="text" v-model="keyword">
+        検索キーワード：<input type="text" :value="keyword">
       </p>
-      <p v-cloak>
-        {{ message }}
-      </p>
+      <a v-on:click="getItems(keyword)" class="waves-effect waves-light btn">Search</a>
       <div class="card blue-grey darken-1" v-for="item in items" v-cloak>
           
           <div class="card">
