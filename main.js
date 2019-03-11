@@ -14,7 +14,7 @@ const vm = new Vue({
     title:'',
     author:'',
   },
-  mounted:{
+  methods:{
     getItems(keyword){
      const url = buildUrl(keyword);
      return axios.get(url).then(response =>
