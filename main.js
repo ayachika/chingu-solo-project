@@ -9,19 +9,19 @@ function buildUrl(url){
 const vm = new Vue({
   el: '#app',
   data: {
-    items: [],
+    items: null,
     keyword:'',//この記述がないと定義されていませんとエラーがでるようだ
     title:'',
     author:'',
   },
-  methods:{
+  mounted:{
     getItems(keyword){
-     let url = buildUrl(keyword);
-     axios.get(url).then((response) =>
-     {this.items = response.data.items;
-     }).catch((error) => {
-       console.log(error);
-     });
-    }
-  },
+     const url = buildUrl(keyword);
+     return axios.get(url).then(response =>
+     (this.items = response))
+     .catch(error => {
+       console.log(error)
+     })
+    },
+  }
 });
