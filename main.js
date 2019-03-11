@@ -23,5 +23,8 @@ const vm = new Vue({
        console.log(error)
      })
     },
-  }
+  },
+  mounted(){
+    this.getItems();
+  },
 });
