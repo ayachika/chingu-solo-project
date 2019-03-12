@@ -1,27 +1,16 @@
-
-const GoogleBooksApi = "https://www.googleapis.com/books/v1/volumes?q=search";
-
-
-function buildUrl(url){
-  return GoogleBooksApi + url
-}
+import Vue from "vue"
 
 const vm = new Vue({
   el: '#app',
-  data: {
-    items: [],
-    keyword:'',//この記述がないと定義されていませんとエラーがでるようだ
-    title:'',
-    author:'',
-  },
-  mounted(){
-    this.getItems('harry');
-  },
-  methods:{
-    getItems(keyword){
-     let url = buildUrl(keyword);
-     axios.get(url).then((response) => {this.items = response.data.items;})
-     .catch(error => {console.log(error);});
+  data() {
+    return{
+      msg:'container',
+      query:'Ayaka'
     }
-  }
+      },
+  methods:{
+    getResult(query){
+      alert(query);
+    }
+  },
 });
