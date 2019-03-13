@@ -1,16 +1,18 @@
-import Vue from "vue"
+import Vue from 'Vue'
+import axios from 'axios'
 
 const vm = new Vue({
   el: '#app',
   data() {
     return{
-      msg:'container',
       query:'Ayaka'
-    }
-      },
+      }
+    },
   methods:{
     getResult(query){
-      alert(query);
+      axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {console.log(response.data.collection.items);
+        
+      });
     }
-  },
+  }
 });
