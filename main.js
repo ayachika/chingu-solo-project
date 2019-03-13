@@ -2,7 +2,8 @@ const vm = new Vue({
   el: '#app',
   data() {
     return{
-      query:'Ayaka'
+      query:'Ayaka',
+      items:[]
       }
     },
   methods:{
