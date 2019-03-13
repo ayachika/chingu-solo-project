@@ -1,6 +1,3 @@
-import Vue from 'Vue'
-import axios from 'axios'
-
 const vm = new Vue({
   el: '#app',
   data() {
@@ -10,9 +7,7 @@ const vm = new Vue({
     },
   methods:{
     getResult(query){
-      axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {console.log(response.data.collection.items);
-        
-      });
+      axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {this.items});
+      }
     }
-  }
 });
