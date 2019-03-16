@@ -16,8 +16,8 @@
       </p>
       <div class="card blue-grey darken-1">
           
-          <div class="card" v-for="item in items" :key="item.id">
-              <p>{{item.title}}</p>
+          <div class="card" v-for="item in items">
+              <p>{{item.volumeInfo.title}}</p>
           </div>
      </div>
   </div>
