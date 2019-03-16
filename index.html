@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <title>Book Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <style>
-      [v-cloak] { display: none; }
-    </style>
+    
   </head>
   <body>
     <div class="container" id="app">
@@ -16,7 +14,7 @@
         検索キーワード：<form v-on:submit.prevent="getResult(query)">
           <input type="text" placeholder="Type in your search" v-model="query" />
       </p>
-      <div class="card blue-grey darken-1" v-for="item in items" v-cloak>
+      <div class="card blue-grey darken-1" v-for="item in items">
           
           <div class="card">
             <div class="card-title">
