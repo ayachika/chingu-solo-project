@@ -10,7 +10,7 @@ const vm = new Vue({
     getResult(query){
       axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {
         console.log(response.data);
-        this.items = response.data;
+        this.items = response.data.items;
         });
       }
     }
