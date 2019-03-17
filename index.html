@@ -15,7 +15,6 @@
         検索キーワード：<form v-on:submit.prevent="getResult(query)">
               <input type="text" placeholder="Type in your search" v-model="query" />
           </p>
-          <div v-show="loading" class="loader">Now loading...</div>
         <div v-if="!loading" class="itemContainer">
           <div class="card blue-grey darken-1">
               
