@@ -19,7 +19,7 @@
               <div class="card" v-for="item in items">
               
                 <div class="card-thumbnail">    
-                  <img src={{item.volumeInfo.imageLinks.thumbnail}}/>
+                  <img v-bind:src="results.links[0].href"/>
                 </div>
               
                 <div class="card-title">    
