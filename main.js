@@ -3,14 +3,15 @@ const vm = new Vue({
   data() {
     return{
       query:'',
-      items:[]
+      items:[],
+      loading: true
       }
     },
   methods:{
     getResult(query){
-      axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {console.log(response.data);
+      axios.get("https://www.googleapis.com/books/v1/volumes?q=search" + query).then(response => {
         this.items = response.data; //返されたデータをitemsに格納する
-        
+        this.loading = false;
       });
       }
     }
