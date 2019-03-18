@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Book Finder</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
     <div class="container" id="app">
@@ -19,7 +19,7 @@
               <div class="card" v-for="item in items">
               
                 <div class="card-thumbnail">    
-                  <img v-bind:src="item.thumbnail" />
+                  <img v-bind:src="item.imageLinks.thumbnail" />
                 </div>
               
                 <div class="card-title">    
