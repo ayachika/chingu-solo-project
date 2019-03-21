@@ -1,12 +1,18 @@
 
 
-.results{
-    position:relative;
-    padding:0 1.25rem;
+.search-results{
     display:flex;
-    width: 45%;
-
+    justify-content: center;
 }
+
+.results{
+ width: 45%; 
+ height:200px;
+ float:left;
+ margin-left:20px;
+ margin-right:10px;
+}
+
 
 .card_title{
     text-align:center;
