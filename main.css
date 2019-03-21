@@ -1,20 +1,15 @@
 
-
-.search-results{
-    display:flex;
-    justify-content: center;
-}
-
-.results{
- width: 45%; 
- height:200px;
- float:left;
- margin-left:20px;
- margin-right:10px;
+.book{
+    float:left;
+    width:40%;
+    height:200px;
+    margin-left:20px;
+    margin-right:10px;   
 }
 
 
-.card_title{
+
+.book_title{
     text-align:center;
     font-size:15px;
     border-bottom: solid 3px #D3D3D3;
