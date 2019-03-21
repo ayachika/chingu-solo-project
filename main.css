@@ -15,9 +15,10 @@
     border-bottom: solid 3px #D3D3D3;
 }
 
-.book_info{
+.container{
     height:100%;
 }
+
 
 .book_image{
     position:absolute;
@@ -28,9 +29,13 @@
     float:left;
 }
 
-.detail{
-    float:right;
+.book_details{
+    position:absolute;
+    top:0;
+    right:0;
 }
+
+
 
 
 @media screen and (max-width: 767px){
