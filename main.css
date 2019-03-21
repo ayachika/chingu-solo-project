@@ -2,7 +2,7 @@
 .book{
     float:left;
     width:45%;
-    height:500px;
+    height:450px;
     margin-left:30px;
     margin-bottom:70px;
     
@@ -11,11 +11,11 @@
 .book_info{
     width:100%;
     margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #aaa;
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #aaa;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .book_details{
@@ -33,23 +33,14 @@
 }
 
 .book_button{
-    margin:0 auto;
+    text-align:center;
 }
 
-
-.book_info book_img{
-    width:100%;
-}
-
-/*
 .book_image{
     width:200px;
     height:250px;
     vertical-align: middle;
-}*/
-
-
-
+}
 
 @media screen and (max-width: 767px){
     
