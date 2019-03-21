@@ -16,7 +16,6 @@
 }
 
 .container{
-    height:100%;
     position:relative;
 }
 
@@ -39,6 +38,8 @@
 .book_button{
     position:absolute;
     right:0;
+    bottom:0;
+    
 }
 
 
