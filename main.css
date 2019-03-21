@@ -11,6 +11,10 @@
     float:left;
 }
 
+.book_details{
+    float:right;
+}
+
 .book_title{
     text-align:center;
     font-size:15px;
