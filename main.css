@@ -12,11 +12,14 @@
 
 .card-title{
     text-align:center;
+    font-size:20px;
     border-bottom: solid 3px #D3D3D3;
 }
 
 
 .card-thumbnail{
+    position:absolute;
+    
     width:40px;
     height:40px;
 }
