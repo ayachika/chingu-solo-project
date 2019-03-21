@@ -22,22 +22,21 @@
                   <p>{{item.volumeInfo.title}}</p>
                 </div>
                 
-                <div class="book-info">
-                  <div class="card-thumbnail">    
-                    <img v-bind:src="item.volumeInfo.imageLinks.thumbnail" />
-                  </div>
-              
+                
+              <div class="card-thumbnail">    
+                <img v-bind:src="item.volumeInfo.imageLinks.thumbnail" />
+              </div>
+              <div class="book-info">
                   <div class="card-authors">    
                     <p>{{item.volumeInfo.authors}}</p>
                   </div>
-                </div>
                 
                   <div class="detail">
                     <a v-bind:href="item.volumeInfo.previewLink" class="waves-effect waves-light btn">show detail</a>
                   </div>
-              
               </div>
-         </div>
+            </div>
+      </div>
   </div>
     
     
