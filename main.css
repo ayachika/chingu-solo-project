@@ -18,11 +18,10 @@
 }
 
 .book_details{
-    width:40%;
+    width:100%;
     display: inline-block;
   vertical-align: middle;
   margin: 5 5px;
-
 }
 
 .book_title{
