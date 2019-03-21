@@ -2,20 +2,28 @@
 .book{
     float:left;
     width:45%;
-    height:300px;
+    height:500px;
     margin-left:30px;
     margin-bottom:70px;
+    
 }
 
 .book_info{
-    float:left;
     width:100%;
+    margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .book_details{
-    float:right;
     width:30%;
-    padding:5;
+    display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+
 }
 
 .book_title{
@@ -32,6 +40,7 @@
 .book_image{
     width:200px;
     height:250px;
+    vertical-align: middle;
 }
 
 
