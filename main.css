@@ -17,6 +17,7 @@
 
 .container{
     height:100%;
+    position:relative;
 }
 
 
@@ -35,7 +36,10 @@
     right:0;
 }
 
-
+.book_button{
+    position:absolute;
+    right:0;
+}
 
 
 @media screen and (max-width: 767px){
