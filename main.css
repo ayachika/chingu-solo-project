@@ -25,16 +25,13 @@
     padding-left:10px;
     width:200px;
     height:250px;
-}
-
-.clearfix::after{
-    content:"";
-    display:block;
-    clear:both;
+    float:left;
 }
 
 .book-details{
     width:50%;
+    float:right;
+    padding:0px;
 }
 
 
