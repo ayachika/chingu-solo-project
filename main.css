@@ -4,7 +4,7 @@
     width:40%;
     height:200px;
     margin-left:20px;
-    margin-right:10px;   
+    margin-right:20px;   
 }
 
 
@@ -15,6 +15,10 @@
     border-bottom: solid 3px #D3D3D3;
 }
 
+.book_info{
+    padding:0px;
+    width:100%;
+}
 
 .book_image{
     float: left;
