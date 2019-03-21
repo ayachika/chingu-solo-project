@@ -23,9 +23,7 @@
                 </div>
                 
             <div class="book_info"> 
-              <div class="book_image">    
-                <img v-bind:src="item.volumeInfo.imageLinks.thumbnail" />
-              </div>
+                <img class="book_image" v-bind:src="item.volumeInfo.imageLinks.thumbnail" />
               <div class="book_details">
                   <p class="detail">Author(s):</p>    
                     <p>{{item.volumeInfo.authors}}</p>

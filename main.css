@@ -1,14 +1,10 @@
 
-.search-results{
-    overflow: hidden;
-}
-
 
 .results{
     position:relative;
     padding:0 1.25rem;
     display:flex;
-    flex-direction: column;
+    width: 45%;
 
 }
 
@@ -43,7 +39,6 @@
 
 @media screen and (max-width: 767px){
     
-.search-results
 .results{
     width:80%;
     margin: 5% 10%;
