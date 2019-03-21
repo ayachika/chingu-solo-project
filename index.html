@@ -12,7 +12,7 @@
       <h3 class="text-center">Book Finder</h3>
       <p> Search：<form v-on:submit.prevent="getResult(query)">
         <input type="text" placeholder="Type in your search" v-model="query" /></p>
-            <div class="book" v-for="item in items">
+            <div class="book card" v-for="item in items">
             
                 <div class="book_title">    
                   <p>{{item.volumeInfo.title}}</p>
