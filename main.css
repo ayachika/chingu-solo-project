@@ -10,6 +10,12 @@
 
 }
 
+.card-title{
+    text-align:center;
+    border-bottom: solid 3px #D3D3D3;
+}
+
+
 .card-thumbnail{
     width:40px;
     height:40px;
