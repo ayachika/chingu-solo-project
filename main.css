@@ -19,13 +19,18 @@
 
 .card-thumbnail{
     position:absolute;
-    padding-top:20px;
+    padding-top:5px;
     padding-left:30px;
     width:40px;
     height:40px;
     clear:both;
 }
 
-.card-authors{
-    
+.book-info{
+    float:left;
+}
+
+.detail{
+    clear:both;
+    margin:0 auto;
 }
