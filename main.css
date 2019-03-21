@@ -29,11 +29,16 @@
     clear:both;
 }
 
+.book_info{
+    width:100%;
+}
+
 .book-details{
     overflow: hidden;
     position:relative;
     float:right;
-    padding:50px;
+    width:50%;
+    
     
 }
 
