@@ -4,6 +4,7 @@
     width:40%;
     height:300px;
     margin-left:20px;
+    margin-bottom:30px;
 }
 
 
@@ -16,7 +17,7 @@
 
 .book_info{
     height:100%;
-    float:left;
+    display:flex;
 }
 
 .book_image{
