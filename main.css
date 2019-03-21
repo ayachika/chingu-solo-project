@@ -14,14 +14,17 @@
     border-bottom: solid 3px #D3D3D3;
 }
 
+.book_info{
+    height:100%;
+}
 
 .book_image{
     float: left;
     position:absolute;
     padding-top:5px;
     padding-left:30px;
-    width:60px;
-    height:100px;
+    width:100px;
+    height:200px;
 }
 
 
