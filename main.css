@@ -31,5 +31,8 @@
 
 .book-info{
     overflow: hidden;
+    position:relative;
+    margin-left:50px;
+    
 }
 
