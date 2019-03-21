@@ -16,31 +16,16 @@
 }
 
 .container{
-    position:relative;
+    float:left;
 }
 
 
 .book_image{
-    position:absolute;
-    padding-top:5px;
-    padding-left:10px;
     width:200px;
     height:250px;
-    float:left;
 }
 
-.book_details{
-    position:absolute;
-    top:0;
-    right:0;
-}
 
-.book_button{
-    position:absolute;
-    right:0;
-    bottom:0;
-    
-}
 
 
 @media screen and (max-width: 767px){
