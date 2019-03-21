@@ -32,7 +32,7 @@
 .book-info{
     overflow: hidden;
     position:relative;
-    margin-left:200px;
+    float:right;
     
 }
 
