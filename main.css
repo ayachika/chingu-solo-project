@@ -19,7 +19,8 @@
 
 .card-thumbnail{
     position:absolute;
-    padding:10px;
+    padding-top:20px;
+    padding-left:30px;
     width:40px;
     height:40px;
     clear:both;
