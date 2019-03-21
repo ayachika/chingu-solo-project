@@ -10,19 +10,17 @@
   <body>
     <div class="container" id="app">
       <h3 class="text-center">Book Finder</h3>
-      <p> <!--v-modelでフォームとバインディング-->
-        
-        Search：<form v-on:submit.prevent="getResult(query)">
-              <input type="text" placeholder="Type in your search" v-model="query" />
-          </p>
+      <p> Search：<form v-on:submit.prevent="getResult(query)">
+        <input type="text" placeholder="Type in your search" v-model="query" /></p>
             <div class="book" v-for="item in items">
             
                 <div class="book_title">    
                   <p>{{item.volumeInfo.title}}</p>
                 </div>
                 
-              <div class="book_info">
+              
                 <img class="book_image" v-bind:src="item.volumeInfo.imageLinks.thumbnail" />
+                <div class="book_info">
                   <div class="book_details">
                       <p class="detail">Author(s):</p>    
                       <p>{{item.volumeInfo.authors}}</p>
@@ -30,14 +28,14 @@
                       <p class="detail">Publisher:</p>    
                       <p>{{item.volumeInfo.publisher}}</p>
                   
-                  
-                  <div class="book_button">
+              </div>
+                <div class="book_button">
                     <a v-bind:href="item.volumeInfo.previewLink" class="waves-effect waves-light btn" target="_blank">show detail</a>
-                  <div>
-                </div>
+                  </div>
               </div>
               
           </div>
+        </div>
     
     
     
