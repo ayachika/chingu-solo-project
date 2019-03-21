@@ -1,25 +1,25 @@
 
-.card-wrapper{
+.search-results{
     overflow: hidden;
 }
 
 
-.card{
-    width:45%;
-    height:350px;
-    float:left;
-    margin:10px;
+.results{
+    position:relative;
+    padding:0 1.25rem;
+    display:flex;
+    flex-direction: column;
 
 }
 
-.card-title{
+.card_title{
     text-align:center;
     font-size:15px;
     border-bottom: solid 3px #D3D3D3;
 }
 
 
-.card-thumbnail{
+.book_image{
     float: left;
     position:absolute;
     padding-top:5px;
@@ -29,7 +29,7 @@
     clear:both;
 }
 
-.book-info{
+.book-details{
     overflow: hidden;
     position:relative;
     float:right;
@@ -37,3 +37,16 @@
     
 }
 
+
+@media screen and (max-width: 767px){
+    
+.search-results
+.results{
+    width:80%;
+    margin: 5% 10%;
+}
+    
+    
+    
+    
+}
