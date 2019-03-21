@@ -37,11 +37,16 @@
 }
 
 
+.book_info book_img{
+    width:100%;
+}
+
+/*
 .book_image{
     width:200px;
     height:250px;
     vertical-align: middle;
-}
+}*/
 
 
 
