@@ -8,36 +8,10 @@
     
 }
 
-.book_info{
-    width:100%;
-    margin: 10px 0;
-    padding: 10px;
-    position: relative;
-    vertical-align: middle;
-}
-
-.book_details{
-    width:50%;
-    display: inline-block;
-  vertical-align: middle;
-  margin: 10 10px;
-}
-
-.book_title{
-    text-align:center;
-    font-size:15px;
-    border-bottom: solid 3px #D3D3D3;
-}
-
 .book_button{
     text-align:center;
 }
 
-.book_image{
-    width:200px;
-    height:250px;
-    vertical-align: middle;
-}
 
 @media screen and (max-width: 767px){
     
