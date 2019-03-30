@@ -1,7 +1,13 @@
 
-.book card{
+.book_wrapper{
+    width:100%;
+}
+
+
+.book_card{
     float:left;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     width:45%;
 }
 
