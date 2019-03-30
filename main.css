@@ -5,11 +5,11 @@
 
 
 .book_card{
-    padding:5px;
+    margin:10px;
     float:left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    width:45%;
+    width:40%;
 }
 
 .row no-gutters{
