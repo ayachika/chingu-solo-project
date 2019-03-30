@@ -1,4 +1,10 @@
 
+.book card{
+    float:left;
+    box-sizing: border-box;
+    width:45%;
+}
+
 .row no-gutters{
     padding:5px;
 }
@@ -9,8 +15,5 @@
 }
 
 
-@media screen and (max-width: 767px){
-    
 
-}
     
