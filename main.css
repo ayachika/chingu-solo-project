@@ -5,6 +5,7 @@
 
 
 .book_card{
+    padding:5px;
     float:left;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
