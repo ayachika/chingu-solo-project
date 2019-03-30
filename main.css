@@ -1,12 +1,8 @@
 
-.book{
-    float:left;
-    width:45%;
-    /*height:450px;*/
-    margin-left:30px;
-    margin-bottom:70px;
-    
+.row no-gutters{
+    padding:5px;
 }
+
 
 .book_button{
     text-align:center;
@@ -15,9 +11,6 @@
 
 @media screen and (max-width: 767px){
     
-.results{
-    width:80%;
-    margin: 5% 10%;
+
 }
     
-}
